@@ -1,0 +1,33 @@
+{
+  "name": "ink",
+  "version": "0.0.1",
+  "description": "An module to register and unregister events on DOM elements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmeetGill/ink.git"
+  },
+  "keywords": [
+    "subscribe",
+    "unsubsribe",
+    "events",
+    "dom",
+    "register",
+    "unregister",
+    "dom",
+    "button",
+    "eventlistener",
+    "event",
+    "listener",
+    "listener"
+  ],
+  "author": "ameetgill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmeetGill/ink/issues"
+  },
+  "homepage": "https://github.com/AmeetGill/ink#readme"
+}
