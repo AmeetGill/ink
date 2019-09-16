@@ -1,5 +1,21 @@
 let data = {};
 
+/*
+
+{
+    id => {
+      maxCount => {
+        eventType:
+        total :
+      },
+      events => {
+        eventType => {
+          list => []
+      }
+    }
+}
+ */
+
 let storeEvent = (id, event) => {
   let eventData = {};
   if (data && data.id) {
@@ -40,3 +56,5 @@ let unbindEvent = (id, event) => {
 
   elem.removeEventListener(event.type, event.listener);
 };
+
+
